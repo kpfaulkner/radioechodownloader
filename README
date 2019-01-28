@@ -1,0 +1,10 @@
+RadioEcho Downloader
+====================
+
+Simple tool for downloading mp3's from radiodownload.com
+
+Go to radiodownload.com and select a genre/series you'd like. The URL would be similar to http://www.radioechoes.com/?page=series&genre=OTR-Comedy&series=Im%20Sorry%20I%20Havent%20A%20Clue
+
+Then to download all of the mp3's referenced from the URL to the directory c:temp\radioecho\ , use the command:
+
+radioechodownloader "http://www.radioechoes.com/?page=series&genre=OTR-Comedy&series=Im%20Sorry%20I%20Havent%20A%20Clue" c:\temp\radioecho\
